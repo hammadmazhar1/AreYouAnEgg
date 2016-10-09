@@ -1,0 +1,13 @@
+clear all
+close all
+clc
+A=xlsread('FuckedupTables');
+B=xlsread('Test.csv');
+
+
+test =B(1,:);
+RT=round(test(1)*10);
+Fr=round(test(2)*10);
+Fl=round(test(3)*10);
+
+if RT*
